@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/tomneil1997/GitTest.git'
+                git branch: 'main', url: 'https://github.com/tomneil1997/GitTest/blob/main/destroy/jenkinsfile'
             }
         }
         stage('Install Terraform') {
