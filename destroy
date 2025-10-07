@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'http://9.163.62.228:8080/'
+                git branch: 'main', url: 'https://github.com/tomneil1997/GitTest.git'
             }
         }
         stage('Install Terraform') {
